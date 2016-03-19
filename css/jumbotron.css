@@ -1,0 +1,41 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+.vcenter {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+}
+.image img {
+  max-width: 158px;
+}
+.navbar {
+  background-color: #aaa;
+  border-color: #ddd;
+}
+.navbar-inverse .navbar-brand {
+  color: #337ab7;
+}
+.logo {
+  max-width: 150px;
+  max-height: 100px;
+}
+.pull-left {
+  float: none !important;
+}
+@media only screen and (min-width:768px) {  /* tablet */
+  #remove-all-from-list button {
+    margin: 38px 0 0 20px;
+  }
+  #remove-list button {
+    margin: 38px 0 0 10px;
+  }
+  .remove-from-list button {
+    margin: 0 0 0 10px;
+  }
+  .pull-left {
+    float: left !important;
+  }
+}
