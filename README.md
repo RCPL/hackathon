@@ -1,6 +1,8 @@
 # Polaris-API-PHP-Class
 IUG Hackathon 2016 - My Lists Builder
 
+![My Lists Builder Preview](images/preview.png)
+
 This project was built by Mark W. Jarrell from Richland Library and Brian LaRue
 from the Salt Lake City Library as part of the IUG 2016 Hackathon and uses
 the Polaris 5.0 SP3 APIs to create lists for library customers. All methods
